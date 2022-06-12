@@ -1,0 +1,186 @@
+#title{
+background-color: #ff4c68;
+
+
+}
+body{
+  font-family: "Montserrat";
+}
+h1{
+  font-family: "Montserrat" ;
+  font-size: 3.5em;
+  line-height: 1.5;
+  font-weight: 900;
+  color : white;
+
+
+
+}
+.container-fluid{
+  padding : 3% 15% ;
+
+
+
+}
+.navbar{
+  padding: 0 0 6rem;
+}
+
+.navbar-brand{
+  font-family : "Ubuntu";
+  font-weight: bold;
+  font-size : 2.5em;
+
+}
+.nav-item{
+  padding :0 18px;
+
+
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: "Montserrat"
+}
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+.title-img{
+  width : 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right : 30%;
+}
+#features{
+  padding-top :3%;
+  padding-bottom :3%;
+  background-color: white;
+  position: relative;
+  z-index:1;
+}
+.h3{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight:bold;
+}
+.col-lg {
+  text-align: center;
+  padding : 5%;
+}
+p{
+  color :#8f8f8f;
+
+}
+.fa-circle-check,.fa-bullseye,.fa-heart{
+  color :#ef8172;
+  font-size: 2.5em;
+  padding: 5%;
+}
+.fa-circle-check:hover,.fa-bullseye:hover,.fa-heart:hover{
+  color :#ff4c68;
+
+}
+#testimonials{
+  text-align: center;
+  background-color:#ef8172;
+  color :#fff;
+
+
+}
+.carousel-item{
+  padding : 7% 15%;
+
+}
+h2{
+  font-family: "Montserrat";
+  font-size:3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.testi-img{
+  width : 10%;
+  border-radius: 100%;
+  margin :20px 20px;
+}
+#press{
+  background-color:#ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+.btn-outline-dark{
+  width:100%;
+}
+.pricing-text{
+  text-align: center;
+  padding:2%;
+
+}
+#pricing{
+  text-align:center;
+}
+.card{
+  padding :5%;
+}
+.col-lg-4{
+  padding:2%;
+}
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding:5% 5%;
+
+}
+.cta{
+  font-family: "Montserrat";
+  font-size:2rem;
+  color:white;
+  font-weight: bold;
+  width :50%;
+  margin:auto;
+  line-height: 1.5;
+  padding-bottom:2%;
+}
+.download-btna{
+  margin:2% 1%;
+}
+#footer{
+  text-align:center;
+
+  padding: 2% 3%;
+}
+.footer-row{
+  width:10%;
+  margin:auto;
+}
+.icons{
+  font-size: 1rem;
+}
+.copy{
+  margin-top:2% ;
+  font-size:1rem;
+}
+@media (max-width :1028px)
+{
+  .title-img{
+    position: static;
+    transform: rotate(0);
+
+  }
+  #title{
+    text-align :center;
+  }
+  h1{
+    font-size:2.5rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  .cta{
+    font-size:1rem;
+  }
+}
