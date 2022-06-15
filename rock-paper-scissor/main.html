@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>game-ground</title>
+</head>
+
+
+<body>
+  <div class="title2">
+    <h1 class="h12">Press any key to start.</h1>
+
+  </div>
+  <div class="scores">
+    <div class="person">
+      <h2>Person</h2>
+      <h3 class="p-score">0</h3>
+    </div>
+    <div class="computer">
+      <h2>Computer</h2>
+      <h3 class="c-score">0</h3>
+    </div>
+  </div>
+  <div class="game-img">
+    <div class="person-img">
+      <img class="flipped" id="p-img" src="images/rock.png" alt="">
+    </div>
+    <div class="computer-img">
+      <img id="c-img" src="images/rock.png" alt="">
+    </div>
+
+  </div>
+
+  <div class="buttons">
+
+    <button type="button" id="rock">rock</button>
+    <button type="button" id="paper">paper</button>
+    <button type="button" id="scissors">scissor</button>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+
+</body>
+
+</html>
